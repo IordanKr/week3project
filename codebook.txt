@@ -1,0 +1,20 @@
+Coursera Week 3 Course Project - Code Book
+features: variable names, different values that were anlyzed
+ytrain and ytest: activities that were analyzed,
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+xtrain and xtest: observations for the test and training subjects
+
+testfull: the testing dataset, with subjects, activities and observations
+trainfull: the training dataset, with subjects, activities and observations
+
+fulldataset: a merge of the training and testing dataset, hence having all the observations with renamed activity labels
+
+tidydataset: the average of each observation of the full dataset looking at mean or standard deviation, grouped by subject and activity.
+
+
